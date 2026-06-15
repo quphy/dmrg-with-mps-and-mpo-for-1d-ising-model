@@ -1,0 +1,9 @@
+finite dmrg (obc)
+dmrg converged at step 2, energy: -7.640592553590078
+obc total energy: -7.640592553590078
+finite dmrg (pbc)
+dmrg converged at step 2, energy: -8.509082235140284
+pbc total energy: -8.509082235140284, energy per site: -1.0636352793925354
+infinite dmrg
+idmrg converged at step 18, energy per site: -1.063544409957018
+energy per site: -1.063544409957018
