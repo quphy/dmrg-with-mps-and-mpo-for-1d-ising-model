@@ -1,6 +1,3 @@
 While learning DMRG, I was captivated by the genious design of MPS and MPO within it, and deeply impressed by the magic of tensor network methods represented by DMRG. Therefore, I decided to reproduce the DMRG implementation of MPO and MPS without using other existing tensor network libraries, such as ITensor. I chose the one-dimensional quantum Ising model because its Hamiltonian is simple enough, and the corresponding MPO is known.
-<<<<<<< HEAD
 The previous code had a bug, which I've moved to old_cpp_with_bug. I've now used the more efficient NumPy to handle tensor operations and rewritten the DMRG code in Python, including finite DMRG implementations for 1D ising models (PBC, OBC, and infinite DMRG implementations).
-=======
-Currently, the code has a bug. It can initialize MPS and MPO and provide the energy based on the initialization, but when I sweep, there's a problem leading to SVD decomposition explosion. I have tried to to fix this bug, but without success. That's why I only wrote the initialization process in the main.cpp and not the DMRG loop. Once the bug fixed, It's very easy to write the DMRG loop in the main.cpp.
->>>>>>> 598bff78ecf6cf58d6bf71e8945ea3da13bf4f4a
+
